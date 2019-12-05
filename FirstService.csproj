@@ -6,6 +6,12 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Modulbank.DbMapping.Contracts" Version="1.4.2" />
+    <PackageReference Include="Modulbank.DbMappingNetCore" Version="1.1.1" />
+    <PackageReference Include="Modulbank.DbMappingNetCore.IoC" Version="1.0.3" />
+    <PackageReference Include="Modulbank.Ioc.Contracts" Version="1.3.1" />
+    <PackageReference Include="Modulbank.IocNetCore" Version="1.2.1" />
     <PackageReference Include="Modulbank.Serverless.Contracts" Version="1.30.1" />
+    <PackageReference Include="VkNet" Version="1.47.0" />
   </ItemGroup>
 </Project>
