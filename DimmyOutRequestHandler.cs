@@ -13,7 +13,7 @@ using System.Linq;
 
 namespace FirstService
 {
-    public class DimmyOutRequestHandler : InternalOutRequestHandler<List<Animal>>
+    public class DimmyOutRequestHandler : InternalOutRequestHandler<AnimalResult>
     {
         private readonly ICommonDbMapper _commonDbMapper;
 
@@ -25,11 +25,10 @@ namespace FirstService
         [Authorize("system")]
         [HttpGet]
         [Route("dummy")]
-        public override async Task<List<Animal>> Handle()
+        public override async Task<AnimalResult> Handle()
         {
             var animals = (await _commonDbMapper.ExecuteListAsync<Animal>("select id, name from animals")).ToList();
-            //return new DimmyOut { Name = "Ринат" };
-            return animals;
+            return new AnimalResult{ Result = animals };
         }
     }
 }
