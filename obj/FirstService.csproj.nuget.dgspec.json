@@ -71,10 +71,6 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
-            },
-            "VkNet": {
-              "target": "Package",
-              "version": "[1.47.0, )"
             }
           },
           "imports": [
