@@ -1,8 +1,0 @@
-/Users/xaota/dot-net/HelloWorld/bin/Debug/netstandard2.0/FirstService.deps.json
-/Users/xaota/dot-net/HelloWorld/bin/Debug/netstandard2.0/FirstService.dll
-/Users/xaota/dot-net/HelloWorld/bin/Debug/netstandard2.0/FirstService.pdb
-/Users/xaota/dot-net/HelloWorld/obj/Debug/netstandard2.0/FirstService.csprojAssemblyReference.cache
-/Users/xaota/dot-net/HelloWorld/obj/Debug/netstandard2.0/FirstService.AssemblyInfoInputs.cache
-/Users/xaota/dot-net/HelloWorld/obj/Debug/netstandard2.0/FirstService.AssemblyInfo.cs
-/Users/xaota/dot-net/HelloWorld/obj/Debug/netstandard2.0/FirstService.dll
-/Users/xaota/dot-net/HelloWorld/obj/Debug/netstandard2.0/FirstService.pdb
