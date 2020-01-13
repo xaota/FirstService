@@ -30,7 +30,7 @@ namespace FirstService
             var id = Guid.NewGuid();
             // var name = animal.Name;
             animal.Id = id;
-            await _commonDbMapper.ExecuteObjectAsync<Animal>("insert into animals (id, name) values (:id, :name)", animal);
+            await _commonDbMapper.ExecuteNonQueryOrThrowExceptionAsync("insert into animals (id, name) values (:id, :name) returning id", animal);
             // await _commonDbMapper.
             // return new AnimalResult{ Result = animals };
             return new IdResult() {Id = id}; // Task<Guid>.FromResult(id);
