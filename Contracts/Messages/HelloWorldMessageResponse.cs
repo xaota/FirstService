@@ -8,12 +8,12 @@ namespace Modulbank.TelegramIntegration.Registration.Rinat.Messages
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public HelloWorldMessageResponse(HelloWorldMessageRequest message)
+        public HelloWorldMessageResponse(HelloWorldMessageRequest message, string splitter = ".")
         {
             Console.WriteLine(JsonConvert.SerializeObject(message));
 
-            Id = message.Id;
-            Name = message.Name + message.Name;
+            this.Id = message.Id;
+            this.Name = message.Name + splitter + message.Name;
         }
     }
 }
