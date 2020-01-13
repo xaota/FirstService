@@ -1,9 +1,11 @@
 using Modulbank.Serverless.Contracts.HydePark;
 using Modulbank.ServiceBusNetCore.Contracts;
 using System.Threading.Tasks;
-
+using Modulbank.ServiceBusNetCore.Contracts.Attributes;
 
 using Modulbank.TelegramIntegration.Registration.Rinat.Messages;
+
+[MessageHandler("gemba")]
 public class HelloWorldMessageRequestHandler : HydeParkMessageHandler<HelloWorldMessageRequest>
 {
   private readonly IHydeParkPublisher _hydeParkPublisher;

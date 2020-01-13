@@ -684,7 +684,7 @@
           "lib/netstandard2.0/Modulbank.Logger.Contracts.dll": {}
         }
       },
-      "Modulbank.Serverless.Contracts/1.30.1": {
+      "Modulbank.Serverless.Contracts/1.30.2": {
         "type": "package",
         "dependencies": {
           "Autofac": "4.6.2",
@@ -2198,14 +2198,15 @@
         "modulbank.logger.contracts.nuspec"
       ]
     },
-    "Modulbank.Serverless.Contracts/1.30.1": {
-      "sha512": "HkTVzHZKcIEPkWUUiTR53p4U4+DjhDqNUHsd1M6IeJpnU2JOqiluOIIrQE2QVxkFRJJM9RVEr6vTB1etnjnuxg==",
+    "Modulbank.Serverless.Contracts/1.30.2": {
+      "sha512": "anzsTdEquGZaGaBym6alIX1jI4EpDBH5Qt1/PyPMj6WQbFkW7fKPmbgXa5nAe8InUhFLWylYxDV8EkFv6cHuJg==",
       "type": "package",
-      "path": "modulbank.serverless.contracts/1.30.1",
+      "path": "modulbank.serverless.contracts/1.30.2",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Modulbank.Serverless.Contracts.dll",
-        "modulbank.serverless.contracts.1.30.1.nupkg.sha512",
+        "lib/netstandard2.0/Modulbank.Serverless.Contracts.xml",
+        "modulbank.serverless.contracts.1.30.2.nupkg.sha512",
         "modulbank.serverless.contracts.nuspec"
       ]
     },
@@ -5010,7 +5011,7 @@
       "Modulbank.DbMappingNetCore.IoC >= 1.0.3",
       "Modulbank.Ioc.Contracts >= 1.3.1",
       "Modulbank.IocNetCore >= 1.2.1",
-      "Modulbank.Serverless.Contracts >= 1.30.1",
+      "Modulbank.Serverless.Contracts >= 1.30.2",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -5077,7 +5078,7 @@
           },
           "Modulbank.Serverless.Contracts": {
             "target": "Package",
-            "version": "[1.30.1, )"
+            "version": "[1.30.2, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
