@@ -5,7 +5,9 @@ using Modulbank.ServiceBusNetCore.Contracts.Attributes;
 
 using Modulbank.TelegramIntegration.Registration.Rinat.Messages;
 
-[MessageHandler("gemba")]
+using FirstService;
+
+[MessageHandler(GembaQueueEnum.GembaQueue)]
 public class HelloWorldMessageRequestHandler : HydeParkMessageHandler<HelloWorldMessageRequest>
 {
   private readonly IHydeParkPublisher _hydeParkPublisher;
